@@ -29,8 +29,8 @@
     "title": "Personal Portfolio Website",
     "description": "Responsive and animated portfolio website with modern UI/UX and dark/light mode support.",
     "tech": ["HTML", "CSS", "JavaScript"],
-    "live": "#",
-    "github": "#"
+    "live": "https://portfolioofvaishnavi.netlify.app/",
+    "github": "https://github.com/vaibhavsase/portfolio"
   },
   {
     "image": "images/smart.jpeg",
