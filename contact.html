@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="mr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact | Vaishnavi Tekale</title>
+  <link rel="stylesheet" href="contact.css" />
+</head>
+
+<body>
+
+  <header class="header">
+    <h1>Contact Me</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="projects.html">Projects</a>
+    </nav>
+  </header>
+
+  <section class="contact-section">
+    <!-- ✅ Web3Forms Integration -->
+    <form action="https://api.web3forms.com/submit" method="POST" class="contact-form" id="contact-form">
+      <h2 class="section-heading">Get In Touch</h2>
+
+      <!-- Hidden Access Key -->
+      <input type="hidden" name="access_key" value="c590d433-7bf5-4bac-8db4-90035ae59226">
+
+      <input type="text" name="name" placeholder="Name" required />
+      <input type="email" name="email" placeholder="E-mail" required />
+      <textarea name="message" placeholder="Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+
+    <div class="social-icons">
+      <a href="https://www.linkedin.com/in/vaishnavi-tekale-b494872a6/" target="_blank" aria-label="LinkedIn">
+        <img src="images/linkedin.svg" alt="LinkedIn" />
+      </a>
+      <a href="https://github.com/Vaishnavitekale" target="_blank" aria-label="GitHub">
+        <img src="images/github.svg" alt="GitHub" />
+      </a>
+      <!-- <a href="https://instagram.com/yourprofile" target="_blank" aria-label="Instagram">
+        <img src="images/instagram.svg" alt="Instagram" /> -->
+      </a>
+    </div>
+  </section>
+
+</body>
+
+<script>
+  const form = document.querySelector('.contact-form');
+  form.addEventListener('submit', (e) => {
+    e.preventDefault();
+    fetch(form.action, {
+      method: 'POST',
+      body: new FormData(form),
+      headers: { 'Accept': 'application/json' }
+    }).then(response => {
+      if (response.ok) {
+        alert('Message sent successfully! Thank You.');
+        form.reset();
+      } else {
+        alert('Something went wrong! Please try again.');
+      }
+    }).catch(() => {
+      alert('Network Problem!! Try again.');
+    });
+  });
+</script>
+
+</html>

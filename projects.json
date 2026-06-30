@@ -1,0 +1,51 @@
+[
+  {
+    "image": "images/Algo.jpeg",
+    "title": "Algo trading System",
+    "description": "Algo trading bot for the Forex Market with the demo account facility with Virtual Market Data.",
+    "tech": ["Python", "React js", "Javascript"],
+    "live": "https://forex-algo-trading.netlify.app/",
+    "github": "https://github.com/vaibhavsase/final-bot-frontend"
+  },
+  
+  {
+    "image": "images/jscompiler.jpeg",
+    "title": "Javascript Compiler",
+    "description": "Mobile friendly Javascript code compiling Compiler",
+    "tech": ["JavaScript", "API", "HTML"],
+    "live": "https://onlne-javascript-compiler.netlify.app/",
+    "github": "https://github.com/Vaishnavitekale/JavaScript_Compiler"
+  },
+  {
+    "image": "images/shopping.jpeg",
+    "title": "Shopping website",
+    "description": "E-commerce website that contains vast range of products.",
+    "tech": ["JavaScript", "API", "HTML"],
+    "live": "https://extraordinary-cannoli-f5d641.netlify.app/",
+    "github": "https://github.com/vaibhavsase/guttural-sort-6357"
+  },
+  {
+    "image": "images/portfolio2.jpeg",
+    "title": "Personal Portfolio Website",
+    "description": "Responsive and animated portfolio website with modern UI/UX and dark/light mode support.",
+    "tech": ["HTML", "CSS", "JavaScript"],
+    "live": "#",
+    "github": "#"
+  },
+  {
+    "image": "images/smart.jpeg",
+    "title": "Smart Attendance System",
+    "description": "Face recognition-based smart attendance system with real-time tracking and Firebase integration.",
+    "tech": ["Python", "OpenCV", "Firebase"],
+    "live": "#",
+    "github": "#"
+  },
+  {
+    "image": "images/weather.jpeg",
+    "title": "Weather App",
+    "description": "Real-time weather forecast app with animated UI and location-based updates.",
+    "tech": ["JavaScript", "API", "HTML"],
+    "live": "#",
+    "github": "#"
+  }
+]

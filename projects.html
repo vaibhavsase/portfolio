@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="mr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Projects | Vaishnavi Tekale</title>
+  <link rel="stylesheet" href="projects.css" />
+</head>
+<body>
+
+  <header class="header">
+    <h1>My Projects</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <!-- 🔍 Search + Filter -->
+  <div class="project-controls">
+
+    <input
+      type="text"
+      id="project-search"
+      placeholder="Search projects by name / tech..."
+    />
+
+    <div class="filter-wrapper">
+      <button class="filter-toggle">⚙️ Filter</button>
+
+      <div class="filter-options">
+        <button data-tech="all" class="active">All</button>
+        <button data-tech="HTML">HTML</button>
+        <button data-tech="CSS">CSS</button>
+        <button data-tech="JavaScript">JavaScript</button>
+        <button data-tech="Python">Python</button>
+        <button data-tech="Firebase">Firebase</button>
+      </div>
+    </div>
+
+  </div>
+
+  <section class="projects-section">
+    <div class="projects-container" id="projects-container"></div>
+  </section>
+
+  <script src="projects.js"></script>
+</body>
+</html>
